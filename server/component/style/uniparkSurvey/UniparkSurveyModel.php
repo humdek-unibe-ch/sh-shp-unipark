@@ -61,7 +61,7 @@ class UniparkSurveyModel extends StyleModel
      * Return the result
      */
     public function save_data($data){
-        $res = $this->user_input->save_static_data(transactionBy_by_unipark_survey, $this->table_name, $data);
+        $res = $this->user_input->save_external_data(transactionBy_by_unipark_survey, $this->table_name, $data);
         $this->data_saved = $res['res'];
     }
 
