@@ -119,6 +119,6 @@ class UniparkHooks extends BaseHooks
     public function get_plugin_db_version($plugin_name = 'unipark')
     {
         return parent::get_plugin_db_version($plugin_name);
-    }s
+    }
 }
 ?>
