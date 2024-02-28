@@ -62,7 +62,7 @@ class UniparkSurveyView extends StyleView
             if (DEBUG) {
                 $local = array(__DIR__ . "/js/iframeResizer.min.js", __DIR__ . "/js/uniparkSurvey.js");
             } else {
-                $local = array(__DIR__ . "/../../../../../Unipark/js/ext/unipark.min.js?v=" . rtrim(shell_exec("git describe --tags")));
+                $local = array(__DIR__ . "/../../../../js/ext/unipark.min.js?v=" . rtrim(shell_exec("git describe --tags")));
             }
         }
         return parent::get_js_includes($local);
@@ -81,7 +81,7 @@ class UniparkSurveyView extends StyleView
             if (DEBUG) {
                 $local = array(__DIR__ . "/css/uniparkSurvey.css");
             } else {
-                $local = array(__DIR__ . "/../../../../../Unipark/css/ext/unipark.min.css?v=" . rtrim(shell_exec("git describe --tags")));
+                $local = array(__DIR__ . "/../../../../css/ext/unipark.min.css?v=" . rtrim(shell_exec("git describe --tags")));
             }
         }
         return parent::get_css_includes($local);
