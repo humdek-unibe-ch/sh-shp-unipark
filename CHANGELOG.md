@@ -1,3 +1,7 @@
+# v1.1.2 - Requires SelfHelp v7.0.0+ (Unpublished)
+### New Features
+ - make it compatible with the `user_input` refactoring
+
 # v1.1.1
 ### Bugfix
  - fix loading path for minified files 
